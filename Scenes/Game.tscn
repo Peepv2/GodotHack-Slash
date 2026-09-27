@@ -4,7 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://bc8wdc7b4vur1" path="res://Scenes/Player.tscn" id="1_iukft"]
 
 [node name="Game" type="Node2D" unique_id=1273695509]
-position = Vector2(0, 1)
 
 [node name="SkeletonEnemy" parent="." unique_id=694569609 instance=ExtResource("1_gl6un")]
 position = Vector2(69.00001, -21)
