@@ -333,5 +333,3 @@ position = Vector2(35.5, 17)
 scale = Vector2(1, 1.5999999)
 shape = SubResource("RectangleShape2D_cekh3")
 debug_color = Color(0.8059467, 0.39555907, 0.35379222, 0.41960785)
-
-[node name="ChangeTEstdeletelater" type="Node" parent="." unique_id=415307399]
