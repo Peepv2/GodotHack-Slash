@@ -314,18 +314,19 @@ size = Vector2(25, 20)
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1544016075]
 position = Vector2(0, -21)
 collision_layer = 5
+collision_mask = 1025
 motion_mode = 1
 script = ExtResource("5_5ixxa")
 metadata/IsAttacking = false
-metadata/Health = 100
+metadata/Health = 300
 
 [node name="AnimSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1312360028]
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_cekh3")
-animation = &"Death"
+animation = &"Idle"
 autoplay = "Idle"
-frame = 2
-frame_progress = 1.0
+frame = 6
+frame_progress = 0.711644
 
 [node name="playerHitbox" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1303047584]
 position = Vector2(0, 4)
