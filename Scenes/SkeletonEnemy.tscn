@@ -229,8 +229,9 @@ debug_color = Color(0.6531034, 0.43957222, 0.7238167, 0.41960785)
 
 [node name="AnimSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=739273863]
 sprite_frames = SubResource("SpriteFrames_5ixxa")
-animation = &"Death"
+animation = &"Idle"
 autoplay = "Idle"
+frame_progress = 0.7435311
 
 [node name="HitboxArea2D" type="Area2D" parent="CharacterBody2D/AnimSprite2D" unique_id=478558693]
 collision_mask = 4
